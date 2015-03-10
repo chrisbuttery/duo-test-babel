@@ -1,0 +1,21 @@
+{
+  "name": "duo-test-babel",
+  "version": "1.0.0",
+  "description": "duo-test + duo-babel",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Chris Buttery",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "duo": "^0.9.6",
+    "duo-babel": "^4.0.0",
+    "duo-jsx": "^1.0.3",
+    "duo-test": "^0.3.13"
+  }
+}
