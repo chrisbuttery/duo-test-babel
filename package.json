@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "postinstall": "npm test"
   },
   "author": "Chris Buttery",
   "license": "ISC",
@@ -15,7 +16,6 @@
     "bluebird": "^2.9.13",
     "duo": "^0.9.6",
     "duo-babel": "^4.0.0",
-    "duo-jsx": "^1.0.3",
     "duo-test": "^0.3.13"
   }
 }
