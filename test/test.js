@@ -14,7 +14,7 @@ describe('Foo', function(){
   })
 
   it('expect', function(){
-    // 
+    // TypeError: Unable to access callee of strict mode function
     expect('foo').to.equal('foo');
   })
 
